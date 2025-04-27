@@ -1,7 +1,7 @@
 
 // Navbar1.jsx
 import React from "react";
-import navbarImage from "../assets/img/Navbar_img/navbar.png";
+import brand from "../assets/img/End/brand.png";
 
 function Navbar1() {
     return (
@@ -11,7 +11,7 @@ function Navbar1() {
                     {/* Logo/Brand - Left side */}
                     <div className="flex-shrink-0 flex items-center">
                         <img 
-                            src={navbarImage} 
+                            src={brand} 
                             alt="Company logo" 
                             className="h-28 w-auto md:h-36 lg:h-40" 
                         />
