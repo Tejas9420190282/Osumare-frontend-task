@@ -1,7 +1,10 @@
 [build]
-  command = "npm run build"
+  command = "npm install && npm run build"  # Added npm install
   publish = "dist"
-  environment = { NODE_VERSION = "20.0.0" }
+  environment = { 
+    NODE_VERSION = "20.9.0",  # Updated to exact required version
+    CI = "true"  # Added CI flag
+  }
 
 [context.production.environment]
   NODE_ENV = "production"
