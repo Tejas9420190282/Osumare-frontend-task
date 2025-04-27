@@ -20,7 +20,7 @@ function Pharma_Partners() {
 
                 {/* Get Started Button */}
                 <div className="text-center ">
-                    <img src={card} alt="" />
+                    <img src={card} alt=""  />
                 </div>
 
                 <div className="flex items-center justify-center">

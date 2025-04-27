@@ -39,7 +39,6 @@ function Diving_Property2() {
                     <h1 className="text-4xl font-bold text-gray-900 mb-4">
                         Driving Property Inquiries to Conversions
                     </h1>
-                    <p className="text-xl text-gray-600">Kishori Tipugade</p>
                 </div>
 
                 {/* Features Grid */}

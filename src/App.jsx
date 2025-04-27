@@ -13,6 +13,9 @@ import Our_Expertise from "./component/Our_Expertise";
 import Your_Peace from "./component/Your_Peace";
 import Pharma_Partners from "./component/Pharma_Partners";
 import Frequently_Asked from "./component/Frequently_Asked";
+import Connect from "./component/cONNECT.JSX";
+import End from "./component/End";
+
 
 function App() {
     const [count, setCount] = useState(0);
@@ -30,6 +33,8 @@ function App() {
             <Your_Peace />
             <Pharma_Partners />
             <Frequently_Asked />
+            <Connect />
+            <End /> 
         </>
     );
 }
