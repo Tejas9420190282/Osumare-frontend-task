@@ -2,7 +2,7 @@
 // Connect.jsx
 import React from "react";
 
-function Connect() {
+function Connect1() {
     return (
         <div className="relative bg-[#f9f9f9] py-16 px-4 sm:px-8 lg:px-8 overflow-hidden">
             <div className="max-w-3xl mx-auto relative z-10">
@@ -101,5 +101,5 @@ function Connect() {
     );
 }
 
-export default Connect;
+export default Connect1;
 

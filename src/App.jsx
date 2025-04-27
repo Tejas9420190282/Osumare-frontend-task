@@ -13,8 +13,9 @@ import Our_Expertise from "./component/Our_Expertise";
 import Your_Peace from "./component/Your_Peace";
 import Pharma_Partners from "./component/Pharma_Partners";
 import Frequently_Asked from "./component/Frequently_Asked";
-import Connect from "./component/cONNECT.JSX";
+
 import End from "./component/End";
+import Connect1 from "./component/Connect1";
 
 
 function App() {
@@ -33,7 +34,7 @@ function App() {
             <Your_Peace />
             <Pharma_Partners />
             <Frequently_Asked />
-            <Connect />
+            <Connect1 />
             <End /> 
         </>
     );
