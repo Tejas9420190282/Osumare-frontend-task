@@ -1,0 +1,33 @@
+# Node modules (huge files installed by npm/yarn)
+node_modules/
+
+# Vite build output (dist folder)
+dist/
+
+# Local environment variables
+.env
+.env.*  # like .env.local, .env.production etc.
+
+# Vite cache
+.vite/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store   # macOS users
+Thumbs.db   # Windows users
+
+# IDE/editor folders (optional but good)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: Coverage reports if you use testing
+coverage/
